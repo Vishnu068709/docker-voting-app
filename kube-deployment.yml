@@ -138,7 +138,7 @@ spec:
     spec:
       containers:
       - name: result
-        image: Vishnu068709/resultnew
+        image: Vishnuvijayan52/resultnew
         ports:
         - containerPort: 80
           name: result
@@ -178,7 +178,7 @@ spec:
     spec:
       containers:
       - name: vote
-        image: Vishnu068709/votenew
+        image: Vishnuvijayan52/votenew
         ports:
         - containerPort: 80
           name: vote
@@ -213,5 +213,5 @@ spec:
         app: worker
     spec: 
       containers: 
-      - image: Vishnu068709/workernew
+      - image: Vishnuvijayan52/workernew
         name: worker
